@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte Galerija Beograd - Umetnici</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="sticky-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index_rs.html">
+          <img src="pics/logo.png" alt="Arte Gallery Logo" width="100">
+          Arte Galerija Beograd
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <!-- Main menu -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index_rs.html">Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="arts_rs.html">Umetnine</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="artists_rs.html">Umetnici</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="account_rs.html">Moj profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus_rs.html">O nama</a>
+            </li>
+          </ul>
+          <!-- Language dropdown menu -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Jezik
+              </a>
+              <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                <a class="dropdown-item" href="artists.html">Engleski</a>
+                <a class="dropdown-item" href="artists_rs.html">Srpski</a>
+                <!-- Add more language options -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content-container mt-5">
+    <div class="container main-content">
+      <div class="breadcrumbs">
+        <a href="index_rs.html">Početna</a> >
+        <span>Umetnici</span>
+      </div>      
+    <!-- Main Content -->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav flex-column">
+                  <li class="nav-item active"><a class="nav-link" href="#current">Trenutni umetnici</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#future">Budući umetnici</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#past">Prošli umetnici</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        <!-- Artists -->
+        <div class="col-md-9">
+          <!-- Category: current -->
+          <section id="current">
+            <h2>Trenutni umetnici</h2>
+            <div class="card mb-3" id="marinaabramovic">
+              <img src="pics/marina_abramovic.jpg" class="card-img-top" alt="Artwork 1">
+              <div class="card-body">
+                <h5 class="card-title">Marina Abramović</h5>
+                <p class="card-text">Marina Abramović je srpska umetnica i izvođačica. Počela je kao slikarka, ali je ubrzo prešla na bodi art, insistirajući na govoru tela i sinesteziji, prikazujući bol, strast i snagu.</p>
+              </div>
+            </div>
+            <div class="card mb-3" id="michaellangelo">
+              <img src="pics/michael_l_angelo.jpg" class="card-img-top" alt="Artwork 1">
+              <div class="card-body">
+                <h5 class="card-title">Michael l' Angelo</h5>
+                <p class="card-text">Michael l' Angelo je italijanski renesansni vajar, slikar, arhitekta i pesnik, jedan od najpoznatijih i najuticajnijih umetnika u istoriji evropske umetnosti.</p>
+              </div>
+            </div>
+            <div class="card mb-3" id="olgapavlovets">
+              <img src="pics/olga_pavlovets.png" class="card-img-top" alt="Artwork 2">
+              <div class="card-body">
+                <h5 class="card-title">Olga Pavlovets</h5>
+                <p class="card-text">Olga Pavlovets je slikarka divljih životinja poznata po svojoj sposobnosti da zabeleži trenutke lepote i transcendencije. Njene slike prenose gledaoce u eterična carstva, pozivajući ih da razmišljaju o neobičnom unutar običnog.</p>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Category: Recent -->
+          <section id="future">
+            <h2>Budući umetnici</h2>
+            <!-- Artwork 3 -->
+            <div class="card mb-3" id="nickdavis">
+              <img src="pics/toa-heftiba-0rlfiRSdVzU-unsplash-fotor-20230613215730.png" class="card-img-top" alt="Artwork 3">
+              <div class="card-body">
+                <h5 class="card-title" >Nick Davis</h5>
+                <p class="card-text">Nick Davis je vrsni slikar poznat po svojim živopisnim i ekspresivnim umetničkim delima. Njegova upotreba živih boja i dinamičnog rada četkica stvara zadivljujuća vizuelna iskustva. Istražite Nikov portfolio i otkrijte svet kroz njegovo jedinstveno umetničko sočivo.</p>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Category: Archived -->
+          <section id="past">
+            <h2>Prošli umetnici</h2>
+            <!-- Artwork 4 -->
+            <div class="card mb-3" id="novalyrics">
+              <img src="pics/pexels-eric-esma-894156-fotor-2023061712132.png" class="card-img-top" alt="Artwork 4">
+              <div class="card-body">
+                <h5 class="card-title">Nova "Lyric" Anderson</h5>
+                <p class="card-text">Nova "Lyric" Anderson je izuzetan reper i tekstopisac koji vlada binom svojom neuporedivom energijom i zadivljujućom igrom reči. Poreklom sa živahnih ulica urbane muzičke scene, Liricin moćan glas i pronicljivo pripovedanje učinili su je silom na koju se treba računati u svetu hip-hopa.</p>
+              </div>
+            </div>
+            <!-- Artwork 5 -->
+            <div class="card mb-3" id="isabellamoonlight">
+              <img src="pics/pexels-elijah-o'donnell-2734422-fotor-2023061712154.png" class="card-img-top" alt="Artwork 5">
+              <div class="card-body">
+                <h5 class="card-title">Isabella Moonlight</h5>
+                <p class="card-text">Isabella Moonlight je savremena umetnica mešovitih medija poznata po svojim zadivljujućim i zagonetnim kreacijama. Sa strašću za istraživanjem interakcije svetlosti i senke, ona stvara očaravajuća umetnička dela koja prenose gledaoce u eterična carstva. Izabelin jedinstveni umetnički stil kombinuje elemente nadrealizma, simbolizma i apstrakcije, što rezultira kompozicijama koje izazivaju razmišljanje koje pozivaju na introspekciju.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2023, Elena Sladojević i Filip Koldžić, Odsek za Softversko inženjerstvo, Elektrotehnički fakultet, Univerzitet u Beogradu</p>
+    </div>
+  </footer>
+  <!-- Include the jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Include your custom JavaScript code -->
+  <script src="script.js"></script>
+</body>
+</html>

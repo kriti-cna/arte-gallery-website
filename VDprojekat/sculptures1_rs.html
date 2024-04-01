@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte Galerija Beograd - Laocoon and his sons</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="sticky-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index_rs.html">
+          <img src="pics/logo.png" alt="Arte Gallery Logo" width="100">
+          Arte Galerija Beograd
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <!-- Main menu -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index_rs.html">Početna</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="arts_rs.html">Umetnine</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="artists_rs.html">Umetnici</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="account_rs.html">Moj profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus_rs.html">O nama</a>
+            </li>
+          </ul>
+          <!-- Language dropdown menu -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Jezik
+              </a>
+              <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                <a class="dropdown-item" href="sculptures1.html">Engleski</a>
+                <a class="dropdown-item" href="sculptures1_rs.html">Srpski</a>
+                <!-- Add more language options -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content-container mt-5">
+    <div class="container main-content"></div>
+      <div class="breadcrumbs">
+        <a href="index_rs.html">Početna</a> >
+        <a href="arts_rs.html">Umetnine</a> >
+        <a href="sculptures_rs.html">Skulpture</a> >
+        <span>Laocoon and his Sons</span>
+      </div>
+      <h1>Informacije o skulpturi</h1>
+
+      <div class="artwork" data-artwork-id="4">
+        <img src="pics/laocoon_and_his_sons_Michael_Langel.jpg" alt="Artwork Image" width="800" height="800" artworkId="4">
+      </div>
+    
+      <h2>Detalji o skulpturi</h2>
+      <p><strong>Naziv:</strong> Laocoon and his Sons</p>
+      <p><strong>Umetnik:</strong> Michael l' Angelo</p>
+      <p><strong>Procenjena vrednost:</strong> $12800</p>
+      <p><strong>Procenjena starost:</strong> 54 godine</p>
+    
+      <h2>Ostavite ponudu</h2>
+      <form id="offerForm">
+        <label for="username">Korisničko ime:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="price">Cena:</label>
+        <input type="number" id="price" name="price" required><br><br>
+        <label for="comment">Komentar:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Predaja ponude">
+      </form>
+    
+      <h2>Sve aktivne ponude</h2>
+      <table class="offers-table">
+        <thead>
+          <tr>
+            <th>Korisničko ime</th>
+            <th>Cena</th>
+            <th>Komentar</th>
+          </tr>
+        </thead>
+        <tbody id="offersTableBody">
+          <!-- Offers will be dynamically added here -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+    <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2023, Elena Sladojević i Filip Koldžić, Odsek za Softversko inženjerstvo, Elektrotehnički fakultet, Univerzitet u Beogradu</p>
+    </div>
+  </footer>
+  <!-- Include the jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Include your custom JavaScript code -->
+  <script src="script.js"></script>
+</body>
+</html>

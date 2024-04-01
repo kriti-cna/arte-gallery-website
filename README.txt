@@ -1,0 +1,1 @@
+Open any of the .html documents in a browser and navigate through the rest of the pages from there.

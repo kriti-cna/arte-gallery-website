@@ -1,0 +1,316 @@
+/* Custom CSS for the art gallery website */
+
+/* Light gray background color */
+  body {
+    background-color: #F2F2F2;
+    color: #333;
+  }
+  
+  /* Light gray header styles */
+  header {
+    background-color: #E8E8E8;
+    color: #333;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #DDD;
+  }
+  
+  .navbar-brand {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #666;
+  }
+  
+  /* Menu dropdown styles */
+  .dropdown-menu {
+    background-color: #DDD;
+  }
+  
+  .dropdown-item {
+    color: #333;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #CCC;
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+    color: #333;
+  }
+  .card-custom img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .content-container {
+    padding: 50px; /* Add some padding to the main content */
+    /*box-sizing: border-box; /* Include padding in the width calculation */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .section-wrapper {
+    margin-bottom: 20px; /* Add some spacing between the sections */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 50px; /* Adjust the value as needed */
+  }
+
+  .navbar-brand img {
+    height: 120px; /* Adjust the value as needed */
+    width: auto;
+    margin-right: 10px;
+  }
+
+  body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-link:hover {
+    background-color: #f5f5f5;
+  }
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  .profile-details {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+  }
+
+  .order-list {
+    list-style: none;
+    padding-left: 20px;
+  }
+
+  .order-list-item {
+    margin-bottom: 5px;
+  }
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .profile-image:hover {
+    transform: scale(1.2); /* Increase the value to zoom in more */
+  }
+
+  .profile-details {
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    /* Add any additional styles you want */
+  }
+
+  .main-content {
+    margin-top: 70px; /* Adjust the value as needed */
+  }
+
+  #map {
+    height: 400px;
+    width: 90%;
+  }
+
+  .carousel-item {
+    display: none;
+    position: relative;
+    text-align: center;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+  }
+  
+  .navbar-nav .sub-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: -2rem;
+    margin-left: 1rem;
+    z-index: 99;
+    min-width: 200px; /* Adjust the width as needed */
+    white-space: nowrap; /* Prevent text from breaking into a new line */
+  }
+  
+  .navbar-nav .nav-item:hover .sub-menu {
+    display: block;
+  }
+
+
+  .offers-table {
+    margin: 0 auto;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 80px; /* Adjust this value based on your header's height */
+    box-sizing: border-box;
+  }
+  
+  .container1 > * {
+    margin-bottom: 20px;
+  }
+  
+  .artwork {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: auto;
+  }
+
+  .offers-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .offers-table th,
+  .offers-table td {
+    padding: 10px;
+  }
+  
+  .offers-table th {
+    text-align: left;
+  }
+  
+  .offers-table td {
+    word-wrap: break-word;
+  }
+
+  .breadcrumbs {
+  padding: 10px;
+  font-size: 14px;
+  }
+
+  .breadcrumbs a {
+    text-decoration: none;
+    color: #21a6f887;
+  }
+
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+
+  .breadcrumbs span {
+   color: #999;
+  }
+
+  .blue-offer {
+    background-color: blue;
+    color: white;
+  }
+
+
+  .expensive {
+    border: 5px solid gold
+    /* Add any other desired styles for highlighting */
+  }
+
+  .expensive-offer {
+    background-color: yellow;
+    font-weight: bold;
+  }
